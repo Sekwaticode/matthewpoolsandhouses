@@ -1854,7 +1854,11 @@ a:focus {
 .portfolio .portfolio-img {
     position: relative;
     overflow: hidden;
+    width: 300px ;
+    height: 300px;
+    object-fit: cover;
 }
+
 
 .portfolio .portfolio-img img {
     width: 100%;
@@ -1892,7 +1896,9 @@ a:focus {
 .portfolio .portfolio-text {
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 60px; 
+    width: 350px;
+
     background: #030f27;
     overflow: hidden;
     white-space: nowrap;
@@ -2245,4 +2251,23 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
